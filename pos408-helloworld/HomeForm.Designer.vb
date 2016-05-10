@@ -28,11 +28,12 @@ Partial Class HomeForm
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(100, 100)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(60, 97)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(164, 66)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Hello"
+        Me.Button1.Text = "Initiate Greeting"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'HomeForm

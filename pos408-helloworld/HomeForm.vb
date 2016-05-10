@@ -17,6 +17,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim frmGreeting As New GreetingForm
 
+        ' Open second form and close main form when it gets closed
         Me.Hide()
         frmGreeting.ShowDialog()
         Me.Close()
